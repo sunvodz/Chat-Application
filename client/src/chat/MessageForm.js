@@ -14,6 +14,7 @@ class MessageForm extends Component {
             text:this.state.text,
             name: this.props.currentName
         })
+        this.setState({text:''});
     }
     render() {
         return (
